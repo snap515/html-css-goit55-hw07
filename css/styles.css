@@ -175,7 +175,7 @@ button {
 
 /* Hero */
 
-.section.hero {
+.section__hero {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -190,7 +190,7 @@ button {
     text-align: center;
 }
 
-.hero-title {
+.section-hero__title {
     margin-bottom: 30px;
     color: var(--white-color);
 
@@ -242,7 +242,7 @@ button {
     margin-right: 30px;
 }
 
-.icon-background {
+.features-item__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +254,7 @@ button {
     border-radius: 4px;
 }
 
-.features-title {
+.features-item__title {
     margin-bottom: 10px;
     color: var(--title-color);
 
@@ -265,7 +265,7 @@ button {
     text-transform: uppercase;
 }
 
-.features-text {
+.features-item__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -274,11 +274,11 @@ button {
 
 /*Activity*/
 
-.section.activity {
+.section--no-top-padding {
     padding-top: 0px;
 }
 
-.section-title {
+.section__title {
     margin-bottom: 50px;
     color: var(--title-color);
 
@@ -293,17 +293,17 @@ button {
     display: flex;
 }
 
-.activity-item {
+.activity-list__item {
     position: relative;
 
     width: calc((100% - 60px) / 3);
 }
 
-.activity-item:not(:last-child) {
+.activity-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.activity-thumb {
+.activity-text__wrapper {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -318,7 +318,7 @@ button {
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.thumb-text {
+.activity-text {
     color: var(--white-color);
     font-weight: 700;
     text-transform: uppercase;
@@ -328,7 +328,7 @@ button {
 }
 
 /* Team */
-.team {
+.section--grey-background {
     background-color: var(--secondary-background);
 }
 
@@ -336,7 +336,7 @@ button {
     display: flex;
 }
 
-.team-item {
+.teammate {
     width: calc((100%-90) / 4);
     margin-right: 30px;
 
@@ -345,18 +345,18 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item:nth-child(4n) {
+.teammate:nth-child(4n) {
     margin-right: 0px;
 }
 
-.teammate-wrap {
+.teammate__desc {
     padding-top: 30px;
     padding-bottom: 30px;
 
     background-color: var(--white-color);
 }
 
-.teammate-name {
+.teammate__name {
     color: var(--title-color);
 
     font-weight: 500;
@@ -366,7 +366,7 @@ button {
     letter-spacing: 0.03em;
 }
 
-.teammate-post {
+.teammate__post {
     margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
@@ -375,11 +375,11 @@ button {
     letter-spacing: 0.03em;
 }
 
-.social-item:not(:last-child) {
+.socials__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-list {
+.socials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +387,7 @@ button {
     margin-top: 16px;
 }
 
-.social-link {
+.socials__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,12 +402,12 @@ button {
     transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.social-icon {
+.socials__icon {
     fill: currentColor;
 }
 
-.social-link:hover,
-.social-link:focus {
+.socials__link:hover,
+.socials__link:focus {
     color: var(--white-color);
     background-color: var(--brand-color);
 }
@@ -422,7 +422,7 @@ button {
     margin-right: 30px;
 }
 
-.clients-link {
+.clients-item__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,23 +438,23 @@ button {
     transition: color var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.clients-icon {
+.clients-item__icon {
     fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-item__link:hover,
+.clients-item__link:focus {
     border-color: var(--brand-color);
     color: var(--brand-color);
 }
 
 /* Footer */
-.footer-section {
+.section-footer {
     background-color: #2f303a;
     padding: 60px 0px;
 }
 
-.container.footer {
+.section-footer__container {
     display: flex;
     align-items: baseline;
 }
@@ -519,14 +519,14 @@ button {
     margin-top: 20px;
 }
 
-.social-link.footer {
+.socials__link.footer {
     color: var(--white-color);
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.social-link.footer:hover,
-.social-link.footer:focus {
+.socials__link.footer:hover,
+.socials__link.footer:focus {
     background-color: var(--brand-color);
 }
 
