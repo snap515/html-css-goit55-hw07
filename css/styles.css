@@ -70,11 +70,6 @@ button {
 }
 
 .logo-link {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
-
     color: var(--title-color);
 
     font-family: Raleway, sans-serif;
@@ -84,6 +79,14 @@ button {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
+.logo-link--big-hover {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
 
 .nav-list {
     display: flex;
@@ -459,19 +462,12 @@ button {
     align-items: baseline;
 }
 
-.address-wrapper {
+.address__wrapper {
     margin-right: 70px;
 }
 
-.footer-logo {
+.logo-link--white-logo {
     color: #ffffff;
-
-    font-family: raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
 .address {
@@ -486,7 +482,7 @@ button {
     letter-spacing: 0.03em;
 }
 
-.footer-contacts {
+.address__link {
     display: block;
     margin-top: 9px;
 
@@ -496,8 +492,8 @@ button {
     transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
+.address__link:hover,
+.address__link:focus {
     color: var(--brand-color);
 }
 
@@ -514,30 +510,31 @@ button {
     letter-spacing: 0.03em;
 }
 
-.social-list.footer {
-    display: flex;
+.socials--bigger-margin {
     margin-top: 20px;
 }
 
-.socials__link.footer {
+.socials__link--grey-background {
     color: var(--white-color);
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.socials__link.footer:hover,
-.socials__link.footer:focus {
+.socials__link.socials__link--grey-background:hover,
+.socials__link.socials__link--grey-background:focus {
     background-color: var(--brand-color);
 }
 
-.footer-form-wrapper {
+/* footer-form---------- */
+
+.footer-form__wrapper {
     display: flex;
     align-items: center;
 
     margin-top: 20px;
 }
 
-.footer-input {
+.footer-form__input {
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -554,7 +551,7 @@ button {
     transition: border-color var(--transition-timing-function) var(--transition-duration), outline-color var(--transition-timing-function) var(--transition-duration);
 }
 
-.footer-input::placeholder {
+.footer-form__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
@@ -562,17 +559,17 @@ button {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-button {
+.footer-form__button {
     display: flex;
     align-items: center;
     margin-left: 12px;
 }
 
-.footer-button-title {
-    margin-left: 29px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+.button__title {
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 /* Portfolio.html */
