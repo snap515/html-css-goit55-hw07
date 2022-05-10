@@ -419,38 +419,38 @@
       </div>
     </footer>
     <!-- Модалка ------------------------------------------------------------------------------------------->
-    <div data-modal class="backdrop is-hidden">
+    <div data-modal class="backdrop backdrop--is-hidden">
       <div class="modal">
         <form class="form">
-          <div class="form-content" role="group" aria-labelledby="contact-details-head">
-            <p class="form-title" id="contact-details-head">
+          <div role="group" aria-labelledby="contact-details-head">
+            <p class="form__title" id="contact-details-head">
               Оставьте свои данные, мы вам перезвоним
             </p>
-            <div class="form-field">
-              <label class="form-label" for="name">Имя</label>
-              <input class="form-input" name="name" type="text" id="name" autofocus />
-              <svg class="input-icon" width="12px" height="12px">
+            <div class="form__field">
+              <label class="form__label" for="name">Имя</label>
+              <input class="form__input" name="name" type="text" id="name" autofocus />
+              <svg class="input__icon" width="12px" height="12px">
                 <use href="./images/icons.svg#icon-form-person"></use>
               </svg>
             </div>
-            <div class="form-field">
-              <label class="form-label" for="phone">Телефон</label>
-              <input class="form-input" name="phone" type="phone" id="phone" />
-              <svg class="input-icon" width="13px" height="13px">
+            <div class="form__field">
+              <label class="form__label" for="phone">Телефон</label>
+              <input class="form__input" name="phone" type="phone" id="phone" />
+              <svg class="input__icon" width="13px" height="13px">
                 <use href="./images/icons.svg#icon-form-phone"></use>
               </svg>
             </div>
-            <div class="form-field">
-              <label class="form-label" for="email">Почта</label>
-              <input class="form-input" name="email" type="email" id="email" />
-              <svg class="input-icon" width="15px" height="12px">
+            <div class="form__field">
+              <label class="form__label" for="email">Почта</label>
+              <input class="form__input" name="email" type="email" id="email" />
+              <svg class="input__icon" width="15px" height="12px">
                 <use href="./images/icons.svg#icon-form-mail"></use>
               </svg>
             </div>
-            <div class="form-field">
-              <label class="form-label" for="comment">Комментарий</label>
+            <div class="form__field">
+              <label class="form__label" for="comment">Комментарий</label>
               <textarea
-                class="form-comment"
+                class="form__comment"
                 name="comment"
                 id="comment"
                 cols="30"
@@ -459,14 +459,14 @@
               ></textarea>
             </div>
           </div>
-          <div class="form-checkbox">
+          <div class="form__checkbox">
             <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" />
-            <label class="checkbox-label" for="checkbox">
-              <svg class="checkbox-icon" width="16px" height="15px">
+            <label class="checkbox__label" for="checkbox">
+              <svg class="checkbox__icon" width="16px" height="15px">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-              <span class="checkbox-text"
-                >Соглашаюсь с рассылкой и принимаю<a class="checkbox-link" href="./">
+              <span class="checkbox__text"
+                >Соглашаюсь с рассылкой и принимаю<a class="checkbox__link" href="./">
                   Условия договора</a
                 >
               </span>
