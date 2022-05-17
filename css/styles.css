@@ -888,6 +888,8 @@ button {
     margin-right: 8px;
     border-radius: 2px;
     border: 2px solid var(--title-color);
+
+    transition: background-color var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .checkbox:checked+.checkbox__label>.checkbox__icon {
