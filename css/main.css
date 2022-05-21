@@ -339,7 +339,7 @@ button {
 }
 
 .section--grey-background {
-  background-color: var(--secondary-background);
+  background-color: #f5f4fa;
 }
 
 .team-list {
