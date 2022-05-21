@@ -428,6 +428,8 @@ button {
     background-color: var(--brand-color);
 }
 
+/* CLIENTS */
+
 .clients-list {
     display: flex;
     align-items: center;
